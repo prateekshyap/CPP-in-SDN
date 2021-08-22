@@ -1,0 +1,397 @@
+>> RandomAndSA
+
+cont =
+
+     1
+
+
+cost =
+
+   7.6200e+04
+
+
+controllers =
+
+     5
+
+
+cont =
+
+     2
+
+
+cost =
+
+   6.9735e+04
+
+
+controllers =
+
+    46    12
+
+
+cont =
+
+     3
+
+
+cost =
+
+   7.5592e+04
+
+
+controllers =
+
+    37    12    19
+
+
+cont =
+
+     4
+
+
+cost =
+
+   6.0931e+04
+
+
+controllers =
+
+     9    50    46    30
+
+
+cont =
+
+     5
+
+
+cost =
+
+   7.9515e+04
+
+
+controllers =
+
+    35    49    15    38    46
+
+
+cont =
+
+     6
+
+
+cost =
+
+   7.2106e+04
+
+
+controllers =
+
+     9    30    32    15    39    33
+
+
+cont =
+
+     7
+
+
+cost =
+
+   8.0976e+04
+
+
+controllers =
+
+    44    42    36    40    21     4    25
+
+
+cont =
+
+     8
+
+
+cost =
+
+   8.0056e+04
+
+
+controllers =
+
+  Columns 1 through 7
+
+    48    37    42    28     9    22    45
+
+  Column 8
+
+    14
+
+
+cont =
+
+     9
+
+
+cost =
+
+   9.2049e+04
+
+
+controllers =
+
+  Columns 1 through 7
+
+     6     2    35    42    29    28    10
+
+  Columns 8 through 9
+
+    22     5
+
+
+cont =
+
+    10
+
+
+cost =
+
+   9.1825e+04
+
+
+controllers =
+
+  Columns 1 through 7
+
+    31    34    18    13     2    32    16
+
+  Columns 8 through 10
+
+    35    27     5
+
+
+cont =
+
+     1
+
+
+ans =
+
+   8.8025e+04
+
+
+randCont =
+
+    12
+
+
+cont =
+
+     2
+
+
+ans =
+
+   8.2483e+04
+
+
+randCont =
+
+    30    43
+
+
+cont =
+
+     3
+
+
+ans =
+
+   6.7947e+04
+
+
+randCont =
+
+    30    17     6
+
+
+cont =
+
+     4
+
+
+ans =
+
+   6.8881e+04
+
+
+randCont =
+
+    34    42    30    14
+
+
+cont =
+
+     5
+
+
+ans =
+
+   8.2714e+04
+
+
+randCont =
+
+     1    35     5    30    29
+
+
+cont =
+
+     6
+
+
+ans =
+
+   8.1931e+04
+
+
+randCont =
+
+    23    50     1     8    38    20
+
+
+cont =
+
+     7
+
+
+ans =
+
+   8.0925e+04
+
+
+randCont =
+
+    23    50    30    13    25    16    47
+
+
+cont =
+
+     8
+
+
+ans =
+
+   8.1510e+04
+
+
+randCont =
+
+  Columns 1 through 7
+
+    36     6    11    19    48     7    38
+
+  Column 8
+
+    22
+
+
+cont =
+
+     9
+
+
+ans =
+
+   9.2534e+04
+
+
+randCont =
+
+  Columns 1 through 7
+
+    14    30    15    12    34    24    39
+
+  Columns 8 through 9
+
+    36    29
+
+
+cont =
+
+    10
+
+
+ans =
+
+   9.0408e+04
+
+
+randCont =
+
+  Columns 1 through 7
+
+    37    27    40    35     3     7    34
+
+  Columns 8 through 10
+
+    31    41    48
+
+Warning: The undocumented 'hardcopy' function
+will be removed in a future release of
+MATLAB; use the documented 'print' command
+instead. 
+> In hardcopy
+  In applyhatch_pluscolor (line 125)
+  In RandomAndSA (line 81) 
+Warning: Zbuffer is not supported for
+printing, using OpenGL instead. 
+> In inputcheck (line 242)
+  In print (line 153)
+  In hardcopy
+  In applyhatch_pluscolor (line 125)
+  In RandomAndSA (line 81) 
+Warning: The undocumented 'hardcopy' function
+will be removed in a future release of
+MATLAB; use the documented 'print' command
+instead. 
+> In hardcopy
+  In applyhatch_pluscolor (line 125)
+  In RandomAndSA (line 106) 
+Warning: Zbuffer is not supported for
+printing, using OpenGL instead. 
+> In inputcheck (line 242)
+  In print (line 153)
+  In hardcopy
+  In applyhatch_pluscolor (line 125)
+  In RandomAndSA (line 106) 
+
+randTime =
+
+  Columns 1 through 4
+
+    0.0018    0.0026    0.0034    0.0042
+
+  Columns 5 through 8
+
+    0.0047    0.0056    0.0066    0.0075
+
+  Columns 9 through 10
+
+    0.0084    0.0093
+
+
+saTime =
+
+  Columns 1 through 4
+
+   83.2049  166.0520  248.8516  331.5282
+
+  Columns 5 through 8
+
+  414.1436  496.8353  579.5960  662.2692
+
+  Columns 9 through 10
+
+  745.0156  827.8980
+
+>> 
+>> 

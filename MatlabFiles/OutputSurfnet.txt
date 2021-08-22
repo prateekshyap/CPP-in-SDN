@@ -1,0 +1,173 @@
+>> agisMain
+For 2 controllers- 
+optimalPrimaryPositions =
+
+     8    26
+
+
+minPrimaryLatency =
+
+    1.6263
+
+
+optimalBackupPositions =
+
+     8    30
+
+
+minBackupLatency =
+
+    2.2094
+
+
+optimalLoadBalancePositions =
+
+     1     8
+
+
+minLoadBalanceLatency =
+
+    2.2881
+
+
+For 3 controllers- 
+optimalPrimaryPositions =
+
+     8    14    26
+
+
+minPrimaryLatency =
+
+    1.4257
+
+
+optimalBackupPositions =
+
+     8    26    30
+
+
+minBackupLatency =
+
+    1.8005
+
+
+optimalLoadBalancePositions =
+
+     8    26    30
+
+
+minLoadBalanceLatency =
+
+    1.8338
+
+
+For 4 controllers- 
+optimalPrimaryPositions =
+
+     2     8    14    26
+
+
+minPrimaryLatency =
+
+    1.2492
+
+
+optimalBackupPositions =
+
+     8    19    26    47
+
+
+minBackupLatency =
+
+    1.5476
+
+
+optimalLoadBalancePositions =
+
+     8    26    27    47
+
+
+minLoadBalanceLatency =
+
+    1.5851
+
+
+For 5 controllers- 
+optimalPrimaryPositions =
+
+     2     8    14    19    26
+
+
+minPrimaryLatency =
+
+    1.0842
+
+
+optimalBackupPositions =
+
+     2     8    14    26    30
+
+
+minBackupLatency =
+
+    1.3618
+
+
+optimalLoadBalancePositions =
+
+     2     8    14    26    30
+
+
+minLoadBalanceLatency =
+
+    1.3818
+
+
+
+
+For 6 controllers- 
+optimalPrimaryPositions =
+
+     2     8    14    19    26    43
+
+
+minPrimaryLatency =
+
+    1.0095
+
+
+optimalBackupPositions =
+
+     2     8    14    19    26    30
+
+
+minBackupLatency =
+
+    1.2141
+
+
+optimalLoadBalancePositions =
+
+     2     8    14    26    27    30
+
+
+minLoadBalanceLatency =
+
+    1.2249
+
+
+Warning: The undocumented 'hardcopy' function will be removed in a future release of MATLAB; use
+the documented 'print' command instead. 
+> In hardcopy
+  In applyhatch_pluscolor (line 125)
+  In multiControllerPlanning (line 78)
+  In agisMain (line 9) 
+Warning: Zbuffer is not supported for printing, using OpenGL instead. 
+> In inputcheck (line 242)
+  In print (line 153)
+  In hardcopy
+  In applyhatch_pluscolor (line 125)
+  In multiControllerPlanning (line 78)
+  In agisMain (line 9) 
+>> 
+>> 

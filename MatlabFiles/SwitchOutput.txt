@@ -1,0 +1,154 @@
+agisMain
+For 2 controllers- 
+optimalPrimaryPositions =
+
+     8    18
+
+
+minPrimaryLatency =
+
+    0.9170
+
+
+optimalBackupPositions =
+
+    18    25
+
+
+minBackupLatency =
+
+    1.1622
+
+
+optimalLoadBalancePositions =
+
+    18    25
+
+
+minLoadBalanceLatency =
+
+    1.2503
+
+
+For 3 controllers- 
+optimalPrimaryPositions =
+
+     7     8    19
+
+
+minPrimaryLatency =
+
+    0.7037
+
+
+optimalBackupPositions =
+
+     8    18    25
+
+
+minBackupLatency =
+
+    0.9722
+
+
+optimalLoadBalancePositions =
+
+     7     8    18
+
+
+minLoadBalanceLatency =
+
+    0.9729
+
+
+For 4 controllers- 
+optimalPrimaryPositions =
+
+     7     8    18    19
+
+
+minPrimaryLatency =
+
+    0.6298
+
+
+optimalBackupPositions =
+
+     7     8    18    19
+
+
+minBackupLatency =
+
+    0.7857
+
+
+optimalLoadBalancePositions =
+
+     7     8    18    19
+
+
+minLoadBalanceLatency =
+
+    0.7857
+
+
+For 5 controllers- 
+optimalPrimaryPositions =
+
+     7     8    18    19    28
+
+
+minPrimaryLatency =
+
+    0.5657
+
+
+optimalBackupPositions =
+
+     7     8    18    19    25
+
+
+minBackupLatency =
+
+    0.6884
+
+
+optimalLoadBalancePositions =
+
+     7     8    18    19    25
+
+
+minLoadBalanceLatency =
+
+    0.6884
+
+
+For 6 controllers- 
+optimalPrimaryPositions =
+
+     7     8    18    19    25    28
+
+
+minPrimaryLatency =
+
+    0.5242
+
+
+optimalBackupPositions =
+
+     7     8    11    18    19    25
+
+
+minBackupLatency =
+
+    0.6077
+
+
+optimalLoadBalancePositions =
+
+     7     8    11    18    19    25
+
+
+minLoadBalanceLatency =
+
+    0.6077

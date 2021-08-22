@@ -1,0 +1,1055 @@
+
+cont =
+
+     1
+
+
+cost =
+
+   1.7100e+04
+
+
+lat =
+
+    1.0213
+
+
+controllers =
+
+    24
+
+
+loads =
+
+   1.0e+04 *
+
+    1.7099
+         0
+
+
+
+
+optLoad =
+
+   1.0e+03 *
+
+    5.0012    4.8190
+    0.0010    0.0010
+
+
+cont =
+
+     2
+
+
+cost =
+
+   9.8215e+03
+
+
+lat =
+
+    0.6248
+
+
+controllers =
+
+    17    14
+
+
+loads =
+
+   1.0e+03 *
+
+    5.0012    4.8190
+    0.0010    0.0010
+
+
+
+
+optLoad =
+
+   1.0e+03 *
+
+    2.2979    2.3242    5.9899
+    0.0010    0.0010    0.0010
+
+
+cont =
+
+     3
+
+
+cost =
+
+   1.0614e+04
+
+
+lat =
+
+    0.7145
+
+
+controllers =
+
+    28     6    18
+
+
+loads =
+
+   1.0e+03 *
+
+    2.2979    2.3242    5.9899
+    0.0010    0.0010    0.0010
+
+
+
+
+optLoad =
+
+   1.0e+03 *
+
+         0         0    4.5059    6.2773
+    0.0010    0.0010    0.0010    0.0010
+
+
+cont =
+
+     4
+
+
+cost =
+
+   1.0786e+04
+
+
+lat =
+
+    0.6896
+
+
+controllers =
+
+     3    15     6    13
+
+
+loads =
+
+   1.0e+03 *
+
+         0         0    4.5059    6.2773
+    0.0010    0.0010    0.0010    0.0010
+
+
+
+
+optLoad =
+
+   1.0e+03 *
+
+    0.5280    0.3668    3.8321         0    4.5171
+    0.0010    0.0010    0.0010    0.0010    0.0010
+
+
+cont =
+
+     5
+
+
+cost =
+
+   9.2472e+03
+
+
+lat =
+
+    0.7412
+
+
+controllers =
+
+    16     5    10    19    13
+
+
+loads =
+
+   1.0e+03 *
+
+    0.5280    0.3668    3.8321         0    4.5171
+    0.0010    0.0010    0.0010    0.0010    0.0010
+
+
+
+
+optLoad =
+
+   1.0e+03 *
+
+    3.5874    0.5740         0         0    1.4860    4.5725
+    0.0010    0.0010    0.0010    0.0010    0.0010    0.0010
+
+
+cont =
+
+     6
+
+
+cost =
+
+   1.0224e+04
+
+
+lat =
+
+    0.7430
+
+
+controllers =
+
+     3    16     7    25     4    17
+
+
+loads =
+
+   1.0e+03 *
+
+    3.5874    0.5740         0         0    1.4860    4.5725
+    0.0010    0.0010    0.0010    0.0010    0.0010    0.0010
+
+
+
+
+optLoad =
+
+   1.0e+03 *
+
+  Columns 1 through 6
+
+         0    0.7922    0.1447    2.7465    0.1928    4.7205
+    0.0010    0.0010    0.0010    0.0010    0.0010    0.0010
+
+  Column 7
+
+         0
+    0.0010
+
+
+cont =
+
+     7
+
+
+cost =
+
+   8.6012e+03
+
+
+lat =
+
+    0.6468
+
+
+controllers =
+
+     6    26    21    16    27    17    20
+
+
+loads =
+
+   1.0e+03 *
+
+  Columns 1 through 6
+
+         0    0.7922    0.1447    2.7465    0.1928    4.7205
+    0.0010    0.0010    0.0010    0.0010    0.0010    0.0010
+
+  Column 7
+
+         0
+    0.0010
+
+
+
+
+optLoad =
+
+   1.0e+03 *
+
+  Columns 1 through 6
+
+    2.3373    0.2237         0         0    0.3849    2.1754
+    0.0010    0.0010    0.0010    0.0010    0.0010    0.0010
+
+  Columns 7 through 8
+
+         0    2.3975
+    0.0010    0.0010
+
+
+cont =
+
+     8
+
+
+cost =
+
+   7.5240e+03
+
+
+lat =
+
+    0.6948
+
+
+controllers =
+
+     6    27    16    15     5    26     7    18
+
+
+loads =
+
+   1.0e+03 *
+
+  Columns 1 through 6
+
+    2.3373    0.2237         0         0    0.3849    2.1754
+    0.0010    0.0010    0.0010    0.0010    0.0010    0.0010
+
+  Columns 7 through 8
+
+         0    2.3975
+    0.0010    0.0010
+
+
+
+
+optLoad =
+
+   1.0e+03 *
+
+  Columns 1 through 6
+
+    0.5590    1.0487         0    0.1457         0         0
+    0.0010    0.0010    0.0010    0.0010    0.0010    0.0010
+
+  Columns 7 through 9
+
+    0.4239    1.5449    1.1756
+    0.0010    0.0010    0.0010
+
+
+cont =
+
+     9
+
+
+cost =
+
+   4.9036e+03
+
+
+lat =
+
+    0.6629
+
+
+controllers =
+
+    15    14     5    21    23     1     2    12    17
+
+
+loads =
+
+   1.0e+03 *
+
+  Columns 1 through 6
+
+    0.5590    1.0487         0    0.1457         0         0
+    0.0010    0.0010    0.0010    0.0010    0.0010    0.0010
+
+  Columns 7 through 9
+
+    0.4239    1.5449    1.1756
+    0.0010    0.0010    0.0010
+
+
+
+
+optLoad =
+
+   1.0e+03 *
+
+  Columns 1 through 6
+
+         0    0.3548         0         0         0    2.1655
+    0.0010    0.0010    0.0010    0.0010    0.0010    0.0010
+
+  Columns 7 through 10
+
+         0    2.8152         0    0.2648
+    0.0010    0.0010    0.0010    0.0010
+
+
+cont =
+
+    10
+
+
+cost =
+
+   5.6068e+03
+
+
+lat =
+
+    0.6735
+
+
+controllers =
+
+    25     1    20    10    16    12     8    13    15     7
+
+
+loads =
+
+   1.0e+03 *
+
+  Columns 1 through 6
+
+         0    0.3548         0         0         0    2.1655
+    0.0010    0.0010    0.0010    0.0010    0.0010    0.0010
+
+  Columns 7 through 10
+
+         0    2.8152         0    0.2648
+    0.0010    0.0010    0.0010    0.0010
+
+
+
+
+optVal =
+
+   1.2415e+04
+
+
+optLoc =
+
+    12
+
+
+optLoad =
+
+   1.0e+04 *
+
+    1.3731
+         0
+
+
+optLat =
+
+    0.8006
+
+
+optVal =
+
+   9.1054e+03
+
+
+optLoc =
+
+    11    12
+
+
+optLoad =
+
+   1.0e+03 *
+
+    4.8688    4.8468
+    0.0010    0.0010
+
+
+optLat =
+
+    0.5893
+
+
+optVal =
+
+   8.6806e+03
+
+
+optLoc =
+
+    20    12     4
+
+
+optLoad =
+
+   1.0e+03 *
+
+    1.9502    4.9565    2.5894
+    0.0010    0.0010    0.0010
+
+
+optLat =
+
+    0.6409
+
+
+optVal =
+
+   6.8990e+03
+
+
+optLoc =
+
+    12    14    11    22
+
+
+optLoad =
+
+   1.0e+03 *
+
+    4.2102    0.8152    2.2913    0.1793
+    0.0010    0.0010    0.0010    0.0010
+
+
+optLat =
+
+    0.4956
+
+
+optVal =
+
+   6.5398e+03
+
+
+optLoc =
+
+     5    11    12    13    21
+
+
+optLoad =
+
+   1.0e+03 *
+
+    0.4477    1.8885    3.3768    1.3059    0.1487
+    0.0010    0.0010    0.0010    0.0010    0.0010
+
+
+optLat =
+
+    0.4230
+
+
+optVal =
+
+   6.2765e+03
+
+
+optLoc =
+
+    28    11     1     2    20    12
+
+
+optLoad =
+
+   1.0e+03 *
+
+    1.3620    1.2158    0.3381         0         0    3.6374
+    0.0010    0.0010    0.0010    0.0010    0.0010    0.0010
+
+
+optLat =
+
+    0.5488
+
+
+optVal =
+
+   5.0423e+03
+
+
+optLoc =
+
+     7     2     1    11    21    14    12
+
+
+optLoad =
+
+   1.0e+03 *
+
+  Columns 1 through 6
+
+         0         0    0.3795    1.2567    0.1658    0.8468
+    0.0010    0.0010    0.0010    0.0010    0.0010    0.0010
+
+  Column 7
+
+    2.9988
+    0.0010
+
+
+optLat =
+
+    0.5671
+
+
+optVal =
+
+   4.6195e+03
+
+
+optLoc =
+
+     2    22    12    11     5    15    23    14
+
+
+optLoad =
+
+   1.0e+03 *
+
+  Columns 1 through 6
+
+         0    0.1569    2.5605    1.1769    0.3788         0
+    0.0010    0.0010    0.0010    0.0010    0.0010    0.0010
+
+  Columns 7 through 8
+
+         0    0.7832
+    0.0010    0.0010
+
+
+optLat =
+
+    0.4812
+
+
+optVal =
+
+   4.4481e+03
+
+
+optLoc =
+
+     4     8     5    15    14    18    27    16    12
+
+
+optLoad =
+
+   1.0e+03 *
+
+  Columns 1 through 6
+
+    0.5962         0    0.3902         0    1.5753    0.3436
+    0.0010    0.0010    0.0010    0.0010    0.0010    0.0010
+
+  Columns 7 through 9
+
+         0         0    2.0428
+    0.0010    0.0010    0.0010
+
+
+optLat =
+
+    0.5446
+
+
+optVal =
+
+   3.8952e+03
+
+
+optLoc =
+
+     7     2     5     1    11    14    12    15     9    16
+
+
+optLoad =
+
+   1.0e+03 *
+
+  Columns 1 through 6
+
+         0         0         0         0    0.7187    1.6071
+    0.0010    0.0010    0.0010    0.0010    0.0010    0.0010
+
+  Columns 7 through 10
+
+    1.8618         0         0         0
+    0.0010    0.0010    0.0010    0.0010
+
+
+optLat =
+
+    0.5510
+
+
+cont =
+
+     1
+
+
+ans =
+
+   1.8892e+04
+
+
+ans =
+
+    1.0978
+
+
+rc =
+
+    27
+
+
+l =
+
+   1.0e+04 *
+
+    1.8891
+         0
+
+
+
+
+cont =
+
+     2
+
+
+ans =
+
+   1.1068e+04
+
+
+ans =
+
+    0.6830
+
+
+rc =
+
+    14    24
+
+
+l =
+
+   1.0e+03 *
+
+    5.6302    5.4367
+    0.0010    0.0010
+
+
+
+
+cont =
+
+     3
+
+
+ans =
+
+   1.3652e+04
+
+
+ans =
+
+    0.8080
+
+
+rc =
+
+     3     8    20
+
+
+l =
+
+   1.0e+03 *
+
+    2.7258    7.1281    3.7961
+    0.0010    0.0010    0.0010
+
+
+
+
+cont =
+
+     4
+
+
+ans =
+
+   1.3140e+04
+
+
+ans =
+
+    0.7542
+
+
+rc =
+
+     2     4    26    27
+
+
+l =
+
+   1.0e+03 *
+
+         0    2.6674    3.0249    7.4455
+    0.0010    0.0010    0.0010    0.0010
+
+
+
+
+cont =
+
+     5
+
+
+ans =
+
+   1.1051e+04
+
+
+ans =
+
+    0.6303
+
+
+rc =
+
+     5     7    18    20    26
+
+
+l =
+
+   1.0e+03 *
+
+    0.4396         0    6.5589         0    4.0490
+    0.0010    0.0010    0.0010    0.0010    0.0010
+
+
+
+
+cont =
+
+     6
+
+
+ans =
+
+   9.7461e+03
+
+
+ans =
+
+    0.5919
+
+
+rc =
+
+     3    10    14    16    20    26
+
+
+l =
+
+   1.0e+03 *
+
+         0    3.8573    5.3169    0.5680         0         0
+    0.0010    0.0010    0.0010    0.0010    0.0010    0.0010
+
+
+
+
+cont =
+
+     7
+
+
+ans =
+
+   9.6031e+03
+
+
+ans =
+
+    0.6070
+
+
+rc =
+
+     3     7    13    13    14    21    22
+
+
+l =
+
+   1.0e+03 *
+
+  Columns 1 through 6
+
+    1.1666    2.9779    3.0478         0    2.0508         0
+    0.0010    0.0010    0.0010    0.0010    0.0010    0.0010
+
+  Column 7
+
+    0.3554
+    0.0010
+
+
+
+
+cont =
+
+     8
+
+
+ans =
+
+   7.3312e+03
+
+
+ans =
+
+    0.5178
+
+
+rc =
+
+     1     6    13    13    14    18    27    28
+
+
+l =
+
+   1.0e+03 *
+
+  Columns 1 through 6
+
+    0.3708    1.1800    1.8154         0    1.9050    2.0548
+    0.0010    0.0010    0.0010    0.0010    0.0010    0.0010
+
+  Columns 7 through 8
+
+         0         0
+    0.0010    0.0010
+
+
+
+
+cont =
+
+     9
+
+
+ans =
+
+   5.1752e+03
+
+
+ans =
+
+    0.4078
+
+
+rc =
+
+     5    11    12    12    14    15    17    21    22
+
+
+l =
+
+   1.0e+03 *
+
+  Columns 1 through 6
+
+    0.3501    1.5457    1.7720         0    0.8389         0
+    0.0010    0.0010    0.0010    0.0010    0.0010    0.0010
+
+  Columns 7 through 9
+
+    0.6626         0         0
+    0.0010    0.0010    0.0010
+
+
+
+
+cont =
+
+    10
+
+
+ans =
+
+   6.5483e+03
+
+
+ans =
+
+    0.4293
+
+
+rc =
+
+     2     5     6     7     8    17    20    20    21    24
+
+
+l =
+
+   1.0e+03 *
+
+  Columns 1 through 6
+
+    0.4053    0.3808         0         0    0.8974    1.1189
+    0.0010    0.0010    0.0010    0.0010    0.0010    0.0010
+
+  Columns 7 through 10
+
+    1.4231         0    0.1512    2.1650
+    0.0010    0.0010    0.0010    0.0010
+
+
+
+Warning: The undocumented 'hardcopy' function will be removed in a
+future release of MATLAB; use the documented 'print' command
+instead. 
+> In hardcopy
+  In applyhatch_pluscolor (line 125)
+  In comparisonLB (line 208) 
+Warning: Zbuffer is not supported for printing, using OpenGL
+instead. 
+> In inputcheck (line 242)
+  In print (line 153)
+  In hardcopy
+  In applyhatch_pluscolor (line 125)
+  In comparisonLB (line 208) 
+Warning: The undocumented 'hardcopy' function will be removed in a
+future release of MATLAB; use the documented 'print' command
+instead. 
+> In hardcopy
+  In applyhatch_pluscolor (line 125)
+  In comparisonLB (line 221) 
+Warning: Zbuffer is not supported for printing, using OpenGL
+instead. 
+> In inputcheck (line 242)
+  In print (line 153)
+  In hardcopy
+  In applyhatch_pluscolor (line 125)
+  In comparisonLB (line 221) 
+Warning: The undocumented 'hardcopy' function will be removed in a
+future release of MATLAB; use the documented 'print' command
+instead. 
+> In hardcopy
+  In applyhatch_pluscolor (line 125)
+  In comparisonLB (line 234) 
+Warning: Zbuffer is not supported for printing, using OpenGL
+instead. 
+> In inputcheck (line 242)
+  In print (line 153)
+  In hardcopy
+  In applyhatch_pluscolor (line 125)
+  In comparisonLB (line 234) 
+>> 
+>> 

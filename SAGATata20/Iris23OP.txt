@@ -1,0 +1,1567 @@
+>> comparison_NEW
+
+cont =
+
+     1
+
+
+cost =
+
+   8.5066e+04
+
+
+controllers =
+
+     6
+
+
+cont =
+
+     2
+
+
+cost =
+
+   6.5134e+04
+
+
+controllers =
+
+     7    46
+
+
+cont =
+
+     3
+
+
+cost =
+
+   7.8757e+04
+
+
+controllers =
+
+    11     5    21
+
+
+cont =
+
+     4
+
+
+cost =
+
+   8.1062e+04
+
+
+controllers =
+
+    12     9    51    47
+
+
+cont =
+
+     5
+
+
+cost =
+
+   8.1489e+04
+
+
+controllers =
+
+    37    30    11    51    41
+
+
+cont =
+
+     6
+
+
+cost =
+
+   7.8911e+04
+
+
+controllers =
+
+    45    40    49     9    32    30
+
+
+cont =
+
+     7
+
+
+cost =
+
+   8.4998e+04
+
+
+controllers =
+
+    17    10    38    31    47     8    22
+
+
+randomIterations =
+
+    62    79    76    55    15
+
+
+mutProb =
+
+    15
+
+ done
+
+mutProb =
+
+    55
+
+ done
+
+mutProb =
+
+    62
+
+ done
+
+mutProb =
+
+    76
+
+ done
+
+mutProb =
+
+    79
+
+ done
+
+randomIterations =
+
+    61    83     5    34    47
+
+
+mutProb =
+
+     5
+
+ done
+
+mutProb =
+
+    34
+
+ done
+
+mutProb =
+
+    47
+
+ done
+
+mutProb =
+
+    61
+
+ done
+
+mutProb =
+
+    83
+
+ done
+
+randomIterations =
+
+    87    79    99    63    61
+
+
+mutProb =
+
+    61
+
+ done
+
+mutProb =
+
+    63
+
+ done
+
+mutProb =
+
+    79
+
+ done
+
+mutProb =
+
+    87
+
+ done
+
+mutProb =
+
+    99
+
+ done
+
+randomIterations =
+
+    85    13    53     7    78
+
+
+mutProb =
+
+     7
+
+ done
+
+mutProb =
+
+    13
+
+ done
+
+mutProb =
+
+    53
+
+ done
+
+mutProb =
+
+    78
+
+ done
+
+mutProb =
+
+    85
+
+ done
+
+randomIterations =
+
+    13    43     9    89    95
+
+
+mutProb =
+
+     9
+
+ done
+
+mutProb =
+
+    13
+
+ done
+
+mutProb =
+
+    43
+
+ done
+
+mutProb =
+
+    89
+
+ done
+
+mutProb =
+
+    95
+
+ done
+
+randomIterations =
+
+    93    94    41    81    49
+
+
+cont =
+
+     1
+
+
+optVal =
+
+   6.1971e+04
+
+
+optLoc =
+
+    34
+
+
+mutProb =
+
+    41
+
+ done
+
+mutProb =
+
+    49
+
+ done
+
+mutProb =
+
+    81
+
+ done
+
+mutProb =
+
+    93
+
+ done
+
+mutProb =
+
+    94
+
+ done
+
+randomIterations =
+
+    28    82    77    25    10
+
+
+mutProb =
+
+    10
+
+ done
+
+mutProb =
+
+    25
+
+ done
+
+mutProb =
+
+    28
+
+ done
+
+mutProb =
+
+    77
+
+ done
+
+mutProb =
+
+    82
+
+ done
+
+randomIterations =
+
+    73    66    23    73    23
+
+
+mutProb =
+
+    23
+
+ done
+
+mutProb =
+
+    66
+
+ done
+
+mutProb =
+
+    73
+
+ done
+
+randomIterations =
+
+    47    26    20    80    70
+
+
+mutProb =
+
+    20
+
+ done
+
+mutProb =
+
+    26
+
+ done
+
+mutProb =
+
+    47
+
+ done
+
+mutProb =
+
+    70
+
+ done
+
+mutProb =
+
+    80
+
+ done
+
+randomIterations =
+
+    19    60    19     2    22
+
+
+mutProb =
+
+     2
+
+ done
+
+mutProb =
+
+    19
+
+ done
+
+mutProb =
+
+    22
+
+ done
+
+mutProb =
+
+    60
+
+ done
+
+randomIterations =
+
+    35    16    26    15    85
+
+
+cont =
+
+     2
+
+
+optVal =
+
+   5.7301e+04
+
+
+optLoc =
+
+     5    33
+
+
+mutProb =
+
+    15
+
+ done
+
+mutProb =
+
+    16
+
+ done
+
+mutProb =
+
+    26
+
+ done
+
+mutProb =
+
+    35
+
+ done
+
+mutProb =
+
+    85
+
+ done
+
+randomIterations =
+
+   100    57    87    63    44
+
+
+mutProb =
+
+    44
+
+ done
+
+mutProb =
+
+    57
+
+ done
+
+mutProb =
+
+    63
+
+ done
+
+mutProb =
+
+    87
+
+ done
+
+mutProb =
+
+   100
+
+ done
+
+randomIterations =
+
+    17    13    86    37    72
+
+
+mutProb =
+
+    13
+
+ done
+
+mutProb =
+
+    17
+
+ done
+
+mutProb =
+
+    37
+
+ done
+
+mutProb =
+
+    72
+
+ done
+
+mutProb =
+
+    86
+
+ done
+
+randomIterations =
+
+    53    64    85    91    39
+
+
+mutProb =
+
+    39
+
+ done
+
+mutProb =
+
+    53
+
+ done
+
+mutProb =
+
+    64
+
+ done
+
+mutProb =
+
+    85
+
+ done
+
+mutProb =
+
+    91
+
+ done
+
+randomIterations =
+
+    58    13    56    51    59
+
+
+mutProb =
+
+    13
+
+ done
+
+mutProb =
+
+    51
+
+ done
+
+mutProb =
+
+    56
+
+ done
+
+mutProb =
+
+    58
+
+ done
+
+mutProb =
+
+    59
+
+ done
+
+randomIterations =
+
+    95    60    54    17    50
+
+
+cont =
+
+     3
+
+
+optVal =
+
+   5.8468e+04
+
+
+optLoc =
+
+    24     1    49
+
+
+mutProb =
+
+    17
+
+ done
+
+mutProb =
+
+    50
+
+ done
+
+mutProb =
+
+    54
+
+ done
+
+mutProb =
+
+    60
+
+ done
+
+mutProb =
+
+    95
+
+ done
+
+randomIterations =
+
+    26    94    45    63    88
+
+
+mutProb =
+
+    26
+
+ done
+
+mutProb =
+
+    45
+
+ done
+
+mutProb =
+
+    63
+
+ done
+
+mutProb =
+
+    88
+
+ done
+
+mutProb =
+
+    94
+
+ done
+
+randomIterations =
+
+    15    38    35    41    19
+
+
+mutProb =
+
+    15
+
+ done
+
+mutProb =
+
+    19
+
+ done
+
+mutProb =
+
+    35
+
+ done
+
+mutProb =
+
+    38
+
+ done
+
+mutProb =
+
+    41
+
+ done
+
+randomIterations =
+
+    85    67    11    86    55
+
+
+mutProb =
+
+    11
+
+ done
+
+mutProb =
+
+    55
+
+ done
+
+mutProb =
+
+    67
+
+ done
+
+mutProb =
+
+    85
+
+ done
+
+mutProb =
+
+    86
+
+ done
+
+randomIterations =
+
+    50    10    41    78    46
+
+
+mutProb =
+
+    10
+
+ done
+
+mutProb =
+
+    41
+
+ done
+
+mutProb =
+
+    46
+
+ done
+
+mutProb =
+
+    50
+
+ done
+
+mutProb =
+
+    78
+
+ done
+
+randomIterations =
+
+    79    61     8    34    85
+
+
+cont =
+
+     4
+
+
+optVal =
+
+   5.9414e+04
+
+
+optLoc =
+
+     1    49    11    15
+
+
+mutProb =
+
+     8
+
+ done
+
+mutProb =
+
+    34
+
+ done
+
+mutProb =
+
+    61
+
+ done
+
+mutProb =
+
+    79
+
+ done
+
+mutProb =
+
+    85
+
+ done
+
+randomIterations =
+
+    38    15    15    30    31
+
+
+mutProb =
+
+    15
+
+ done
+
+mutProb =
+
+    30
+
+ done
+
+mutProb =
+
+    31
+
+ done
+
+mutProb =
+
+    38
+
+ done
+
+randomIterations =
+
+    14    33    34    95    23
+
+
+mutProb =
+
+    14
+
+ done
+
+mutProb =
+
+    23
+
+ done
+
+mutProb =
+
+    33
+
+ done
+
+mutProb =
+
+    34
+
+ done
+
+mutProb =
+
+    95
+
+ done
+
+randomIterations =
+
+    35    41    15    75    54
+
+
+mutProb =
+
+    15
+
+ done
+
+mutProb =
+
+    35
+
+ done
+
+mutProb =
+
+    41
+
+ done
+
+mutProb =
+
+    54
+
+ done
+
+mutProb =
+
+    75
+
+ done
+
+randomIterations =
+
+    53     9    71    20    61
+
+
+mutProb =
+
+     9
+
+ done
+
+mutProb =
+
+    20
+
+ done
+
+mutProb =
+
+    53
+
+ done
+
+mutProb =
+
+    61
+
+ done
+
+mutProb =
+
+    71
+
+ done
+
+randomIterations =
+
+    33     1    47    66    45
+
+
+cont =
+
+     5
+
+
+optVal =
+
+   6.1850e+04
+
+
+optLoc =
+
+     1    15    30    49     3
+
+
+mutProb =
+
+     1
+
+ done
+
+mutProb =
+
+    33
+
+ done
+
+mutProb =
+
+    45
+
+ done
+
+mutProb =
+
+    47
+
+ done
+
+mutProb =
+
+    66
+
+ done
+
+randomIterations =
+
+    58    83    24    92    56
+
+
+mutProb =
+
+    24
+
+ done
+
+mutProb =
+
+    56
+
+ done
+
+mutProb =
+
+    58
+
+ done
+
+mutProb =
+
+    83
+
+ done
+
+mutProb =
+
+    92
+
+ done
+
+randomIterations =
+
+     8    41    41    65    81
+
+
+mutProb =
+
+     8
+
+ done
+
+mutProb =
+
+    41
+
+ done
+
+mutProb =
+
+    65
+
+ done
+
+mutProb =
+
+    81
+
+ done
+
+randomIterations =
+
+    61    11     6    13    31
+
+
+mutProb =
+
+     6
+
+ done
+
+mutProb =
+
+    11
+
+ done
+
+mutProb =
+
+    13
+
+ done
+
+mutProb =
+
+    31
+
+ done
+
+mutProb =
+
+    61
+
+ done
+
+randomIterations =
+
+     8    85     9    16     3
+
+
+mutProb =
+
+     3
+
+ done
+
+mutProb =
+
+     8
+
+ done
+
+mutProb =
+
+     9
+
+ done
+
+mutProb =
+
+    16
+
+ done
+
+mutProb =
+
+    85
+
+ done
+
+randomIterations =
+
+    74     5    28    26    81
+
+
+cont =
+
+     6
+
+
+optVal =
+
+   6.5112e+04
+
+
+optLoc =
+
+     1    49    30    21     3    33
+
+
+mutProb =
+
+     5
+
+ done
+
+mutProb =
+
+    26
+
+ done
+
+mutProb =
+
+    28
+
+ done
+
+mutProb =
+
+    74
+
+ done
+
+mutProb =
+
+    81
+
+ done
+
+randomIterations =
+
+    98    57    70    98    65
+
+
+mutProb =
+
+    57
+
+ done
+
+mutProb =
+
+    65
+
+ done
+
+mutProb =
+
+    70
+
+ done
+
+mutProb =
+
+    98
+
+ done
+
+randomIterations =
+
+    38    61    58    58    59
+
+
+mutProb =
+
+    38
+
+ done
+
+mutProb =
+
+    58
+
+ done
+
+mutProb =
+
+    59
+
+ done
+
+mutProb =
+
+    61
+
+ done
+
+randomIterations =
+
+    55    91    37    81    94
+
+
+mutProb =
+
+    37
+
+ done
+
+mutProb =
+
+    55
+
+ done
+
+mutProb =
+
+    81
+
+ done
+
+mutProb =
+
+    91
+
+ done
+
+mutProb =
+
+    94
+
+ done
+
+randomIterations =
+
+    19    95    58    27    43
+
+
+mutProb =
+
+    19
+
+ done
+
+mutProb =
+
+    27
+
+ done
+
+mutProb =
+
+    43
+
+ done
+
+mutProb =
+
+    58
+
+ done
+
+mutProb =
+
+    95
+
+ done
+
+randomIterations =
+
+    42    97    57     9    40
+
+
+cont =
+
+     7
+
+
+optVal =
+
+   6.9533e+04
+
+
+optLoc =
+
+    15     1    30     3    40    45    19
+
+
+cont =
+
+     1
+
+
+ans =
+
+   2.1880e+06
+
+
+randCont =
+
+    29
+
+
+cont =
+
+     2
+
+
+ans =
+
+   1.4744e+06
+
+
+randCont =
+
+     1    38
+
+
+cont =
+
+     3
+
+
+ans =
+
+   1.3401e+06
+
+
+randCont =
+
+    48    24    11
+
+
+cont =
+
+     4
+
+
+ans =
+
+   1.2820e+06
+
+
+randCont =
+
+    42    40    28     1
+
+
+cont =
+
+     5
+
+
+ans =
+
+   1.2966e+06
+
+
+randCont =
+
+    12     1     5    35    26
+
+
+cont =
+
+     6
+
+
+ans =
+
+   1.1209e+06
+
+
+randCont =
+
+    36    23    26    33    50    12
+
+
+cont =
+
+     7
+
+
+ans =
+
+   1.2075e+06
+
+
+randCont =
+
+    16    42     4    49    37     7     8
+
+Warning: The undocumented 'hardcopy' function
+will be removed in a future release of
+MATLAB; use the documented 'print' command
+instead. 
+> In hardcopy
+  In applyhatch_pluscolor (line 125)
+  In comparison_NEW (line 104) 
+Warning: Zbuffer is not supported for
+printing, using OpenGL instead. 
+> In inputcheck (line 242)
+  In print (line 153)
+  In hardcopy
+  In applyhatch_pluscolor (line 125)
+  In comparison_NEW (line 104) 
+Warning: The undocumented 'hardcopy' function
+will be removed in a future release of
+MATLAB; use the documented 'print' command
+instead. 
+> In hardcopy
+  In applyhatch_pluscolor (line 125)
+  In comparison_NEW (line 129) 
+Warning: Zbuffer is not supported for
+printing, using OpenGL instead. 
+> In inputcheck (line 242)
+  In print (line 153)
+  In hardcopy
+  In applyhatch_pluscolor (line 125)
+  In comparison_NEW (line 129) 
+
+randTime =
+
+  Columns 1 through 4
+
+    0.0116    0.0094    0.0051    0.0053
+
+  Columns 5 through 7
+
+    0.0064    0.0076    0.0085
+
+
+saTime =
+
+  Columns 1 through 4
+
+   98.6692  196.9050  295.0299  393.2741
+
+  Columns 5 through 7
+
+  491.4197  589.6247  687.8297
+
+
+gaTime =
+
+  Columns 1 through 4
+
+    1.1625    5.2678   11.8067   20.9107
+
+  Columns 5 through 7
+
+   70.9830  201.2597  813.8702
+
+>> 
+>> 

@@ -1,0 +1,746 @@
+>> comparison_NEW2
+
+cont =
+
+     1
+
+
+cost =
+
+   2.7846e+05
+
+
+lat =
+
+  543.9188
+
+
+controllers =
+
+    93
+
+
+cont =
+
+     2
+
+
+cost =
+
+   1.9453e+05
+
+
+lat =
+
+  535.6349
+
+
+controllers =
+
+    88   131
+
+
+cont =
+
+     3
+
+
+cost =
+
+   2.3143e+05
+
+
+lat =
+
+  672.4246
+
+
+controllers =
+
+   101    59     4
+
+
+cont =
+
+     4
+
+
+cost =
+
+   1.8978e+05
+
+
+lat =
+
+  670.6746
+
+
+controllers =
+
+    10   117    24    49
+
+
+cont =
+
+     5
+
+
+cost =
+
+   1.7886e+05
+
+
+lat =
+
+  499.4134
+
+
+controllers =
+
+    81    61     6    21    92
+
+
+cont =
+
+     6
+
+
+cost =
+
+   1.6660e+05
+
+
+lat =
+
+  682.7211
+
+
+controllers =
+
+   132    71    63   107   128    56
+
+
+cont =
+
+     7
+
+
+cost =
+
+   1.7795e+05
+
+
+lat =
+
+  768.7188
+
+
+controllers =
+
+   136   137    49    16    26    36    52
+
+
+cont =
+
+     8
+
+
+cost =
+
+   1.8216e+05
+
+
+lat =
+
+  580.7005
+
+
+controllers =
+
+  Columns 1 through 7
+
+    51    14    77    53    16    57     2
+
+  Column 8
+
+    54
+
+
+cont =
+
+     9
+
+
+cost =
+
+   1.6647e+05
+
+
+lat =
+
+  620.9262
+
+
+controllers =
+
+  Columns 1 through 7
+
+    21   126   129    57   127   112    50
+
+  Columns 8 through 9
+
+    13     6
+
+
+cont =
+
+    10
+
+
+cost =
+
+   1.7492e+05
+
+
+lat =
+
+  604.5753
+
+
+controllers =
+
+  Columns 1 through 7
+
+     3    14   104   114     5   105    12
+
+  Columns 8 through 10
+
+    63   108    70
+
+
+cont =
+
+    11
+
+
+cost =
+
+   1.9237e+05
+
+
+lat =
+
+  776.8656
+
+
+controllers =
+
+  Columns 1 through 7
+
+    76    23   123    92    74   136    59
+
+  Columns 8 through 11
+
+     2    85     8    66
+
+
+cont =
+
+    12
+
+
+cost =
+
+   1.8853e+05
+
+
+lat =
+
+  736.2265
+
+
+controllers =
+
+  Columns 1 through 7
+
+    94    46   115     5    66    29    63
+
+  Columns 8 through 12
+
+    18    51    99    85   103
+
+
+cont =
+
+    13
+
+
+cost =
+
+   1.7772e+05
+
+
+lat =
+
+  562.3632
+
+
+controllers =
+
+  Columns 1 through 7
+
+    73   100    61    70     4   121    47
+
+  Columns 8 through 13
+
+    16    49    12    38   128    20
+
+
+cont =
+
+    14
+
+
+cost =
+
+   1.7802e+05
+
+
+lat =
+
+  797.7162
+
+
+controllers =
+
+  Columns 1 through 7
+
+   141    84   110    20    37    27   140
+
+  Columns 8 through 14
+
+   105   104    49   131   132   126   100
+
+
+cont =
+
+    15
+
+
+cost =
+
+   1.8267e+05
+
+
+lat =
+
+  852.6256
+
+
+controllers =
+
+  Columns 1 through 7
+
+    65    80   114   142   141   109    23
+
+  Columns 8 through 14
+
+   134     7   129    12    41    53    15
+
+  Column 15
+
+   119
+
+
+cont =
+
+     1
+
+
+ans =
+
+   2.7904e+05
+
+
+ans =
+
+  545.0785
+
+
+rc =
+
+    72
+
+
+cont =
+
+     2
+
+
+ans =
+
+   1.9628e+05
+
+
+ans =
+
+  489.0884
+
+
+rc =
+
+    22    95
+
+
+cont =
+
+     3
+
+
+ans =
+
+   2.3810e+05
+
+
+ans =
+
+  762.8159
+
+
+rc =
+
+     4    77    33
+
+
+cont =
+
+     4
+
+
+ans =
+
+   1.9013e+05
+
+
+ans =
+
+  548.8856
+
+
+rc =
+
+    50    95   135    12
+
+
+cont =
+
+     5
+
+
+ans =
+
+   1.8889e+05
+
+
+ans =
+
+  645.4712
+
+
+rc =
+
+    76    46    84   129     8
+
+
+cont =
+
+     6
+
+
+ans =
+
+   1.8891e+05
+
+
+ans =
+
+  550.4908
+
+
+rc =
+
+     4    37   121    27    20    87
+
+
+cont =
+
+     7
+
+
+ans =
+
+   1.8731e+05
+
+
+ans =
+
+  822.0378
+
+
+rc =
+
+   138    24   127    97   103   130    26
+
+
+cont =
+
+     8
+
+
+ans =
+
+   2.0191e+05
+
+
+ans =
+
+  695.7524
+
+
+rc =
+
+  Columns 1 through 7
+
+   107    25    76    55    26    58   120
+
+  Column 8
+
+    17
+
+
+cont =
+
+     9
+
+
+ans =
+
+   1.7752e+05
+
+
+ans =
+
+  534.0008
+
+
+rc =
+
+  Columns 1 through 7
+
+     5    68    49   130    18    50   122
+
+  Columns 8 through 9
+
+   125    57
+
+
+cont =
+
+    10
+
+
+ans =
+
+   1.8552e+05
+
+
+ans =
+
+  762.5221
+
+
+rc =
+
+  Columns 1 through 7
+
+    41   141   128    89   120    14   127
+
+  Columns 8 through 10
+
+     2    35    34
+
+
+cont =
+
+    11
+
+
+ans =
+
+   1.9255e+05
+
+
+ans =
+
+  811.0731
+
+
+rc =
+
+  Columns 1 through 7
+
+   126    26    24    77   128   112    19
+
+  Columns 8 through 11
+
+    94    25    59   117
+
+
+cont =
+
+    12
+
+
+ans =
+
+   1.9867e+05
+
+
+ans =
+
+  776.7207
+
+
+rc =
+
+  Columns 1 through 7
+
+    56    85     4    95     6    55    57
+
+  Columns 8 through 12
+
+   131    29   113    40    89
+
+
+cont =
+
+    13
+
+
+ans =
+
+   1.8569e+05
+
+
+ans =
+
+  782.3251
+
+
+rc =
+
+  Columns 1 through 7
+
+    75   137   119    65   130    74   123
+
+  Columns 8 through 13
+
+   117   100    99    64    60    72
+
+
+cont =
+
+    14
+
+
+ans =
+
+   1.7934e+05
+
+
+ans =
+
+  782.2462
+
+
+rc =
+
+  Columns 1 through 7
+
+    83    91   109    57   116    92    59
+
+  Columns 8 through 14
+
+    76    87    22     7    44     9    28
+
+
+cont =
+
+    15
+
+
+ans =
+
+   1.9851e+05
+
+
+ans =
+
+  800.2485
+
+
+rc =
+
+  Columns 1 through 7
+
+   104   101   140    36    86    36    95
+
+  Columns 8 through 14
+
+   130   139    28    66    56    78   137
+
+  Column 15
+
+    72
+
+
+randTime =
+
+  Columns 1 through 4
+
+    0.0236    0.0452    0.0671    0.0884
+
+  Columns 5 through 8
+
+    0.1104    0.1323    0.1543    0.1762
+
+  Columns 9 through 12
+
+    0.1982    0.2207    0.2422    0.2642
+
+  Columns 13 through 15
+
+    0.2861    0.3081    0.3302
+
+
+saTime =
+
+   1.0e+04 *
+
+  Columns 1 through 4
+
+    0.1982    0.3956    0.5933    0.7910
+
+  Columns 5 through 8
+
+    0.9888    1.1864    1.3842    1.5822
+
+  Columns 9 through 12
+
+    1.7799    1.9775    2.1754    2.3729
+
+  Columns 13 through 15
+
+    2.5711    2.7683    2.9667
+
+>> 

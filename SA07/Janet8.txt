@@ -1,0 +1,289 @@
+>> RandomAndSA
+
+cont =
+
+     1
+
+
+cost =
+
+   2.1832e+04
+
+
+controllers =
+
+     3
+
+
+cont =
+
+     2
+
+
+cost =
+
+   2.3017e+04
+
+
+controllers =
+
+    12    16
+
+
+cont =
+
+     3
+
+
+cost =
+
+   2.8487e+04
+
+
+controllers =
+
+    24     9    11
+
+
+cont =
+
+     4
+
+
+cost =
+
+   3.6149e+04
+
+
+controllers =
+
+     8     2    23    15
+
+
+cont =
+
+     5
+
+
+cost =
+
+   3.9159e+04
+
+
+controllers =
+
+    12    17    13    21    22
+
+
+cont =
+
+     6
+
+
+cost =
+
+   4.4925e+04
+
+
+controllers =
+
+     5    24    11     3    17    28
+
+
+cont =
+
+     7
+
+
+cost =
+
+   5.1640e+04
+
+
+controllers =
+
+    17    16    21    28     6     9     4
+
+
+cont =
+
+     8
+
+
+cost =
+
+   5.7044e+04
+
+
+controllers =
+
+  Columns 1 through 7
+
+    12    27     1    11    28     2     9
+
+  Column 8
+
+     7
+
+
+cont =
+
+     1
+
+
+ans =
+
+   3.6936e+05
+
+
+randCont =
+
+    11
+
+
+cont =
+
+     2
+
+
+ans =
+
+   3.7095e+05
+
+
+randCont =
+
+    26     2
+
+
+cont =
+
+     3
+
+
+ans =
+
+   3.0595e+05
+
+
+randCont =
+
+    11    26     2
+
+
+cont =
+
+     4
+
+
+ans =
+
+   3.3861e+05
+
+
+randCont =
+
+     2     6     2    20
+
+
+cont =
+
+     5
+
+
+ans =
+
+   3.6507e+05
+
+
+randCont =
+
+    25     3    25     8     7
+
+
+cont =
+
+     6
+
+
+ans =
+
+   2.6931e+05
+
+
+randCont =
+
+     3     1    21     5    13    14
+
+
+cont =
+
+     7
+
+
+ans =
+
+   2.6493e+05
+
+
+randCont =
+
+     5    24    24    11     7    23    11
+
+
+cont =
+
+     8
+
+
+ans =
+
+   2.5589e+05
+
+
+randCont =
+
+  Columns 1 through 7
+
+    26    18     7    27     5     1    21
+
+  Column 8
+
+     8
+
+Warning: The undocumented 'hardcopy' function
+will be removed in a future release of
+MATLAB; use the documented 'print' command
+instead. 
+> In hardcopy
+  In applyhatch_pluscolor (line 125)
+  In RandomAndSA (line 81) 
+Warning: Zbuffer is not supported for
+printing, using OpenGL instead. 
+> In inputcheck (line 242)
+  In print (line 153)
+  In hardcopy
+  In applyhatch_pluscolor (line 125)
+  In RandomAndSA (line 81) 
+Warning: The undocumented 'hardcopy' function
+will be removed in a future release of
+MATLAB; use the documented 'print' command
+instead. 
+> In hardcopy
+  In applyhatch_pluscolor (line 125)
+  In RandomAndSA (line 106) 
+Warning: Zbuffer is not supported for
+printing, using OpenGL instead. 
+> In inputcheck (line 242)
+  In print (line 153)
+  In hardcopy
+  In applyhatch_pluscolor (line 125)
+  In RandomAndSA (line 106) 
+Index exceeds matrix dimensions.
+
+Error in RandomAndSA (line 140)
+plot (temps (noOfControllers,
+1:counter),saCosts (noOfControllers,
+1:counter));
+ 
+>> 

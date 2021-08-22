@@ -1,0 +1,491 @@
+>> agisMain
+[Fatal Error] switch.graphml:2:6: The processing instruction target matching "[xX][mM][lL]" is not allowed.
+
+Error using xmlread (line 106)
+Java exception occurred:
+org.xml.sax.SAXParseException; systemId:
+file:/C:/Users/swagatika%20mam/Documents/MATLAB/switch.graphml; lineNumber: 2; columnNumber: 6;
+The processing instruction target matching "[xX][mM][lL]" is not allowed.
+
+	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source)
+
+	at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+
+	at javax.xml.parsers.DocumentBuilder.parse(Unknown Source)
+
+
+Error in importGraphML (line 21)
+xDoc = xmlread(filename);
+
+Error in agisMain (line 7)
+[topology,latlong,nodenames,agisMat,P]= importGraphML(fileName);%--Read GML file to find nodes and
+adjacency matrix-
+ 
+>> agisMain
+For 2 controllers- 
+optimalPrimaryPositions =
+
+     8    18
+
+
+minPrimaryLatency =
+
+    0.9170
+
+
+optimalBackupPositions =
+
+    18    25
+
+
+minBackupLatency =
+
+    1.1622
+
+
+optimalLoadBalancePositions =
+
+    18    25
+
+
+minLoadBalanceLatency =
+
+    1.2503
+
+
+For 3 controllers- 
+optimalPrimaryPositions =
+
+     7     8    19
+
+
+minPrimaryLatency =
+
+    0.7037
+
+
+optimalBackupPositions =
+
+     8    18    25
+
+
+minBackupLatency =
+
+    0.9722
+
+
+optimalLoadBalancePositions =
+
+     7     8    18
+
+
+minLoadBalanceLatency =
+
+    0.9729
+
+
+For 4 controllers- 
+optimalPrimaryPositions =
+
+     7     8    18    19
+
+
+minPrimaryLatency =
+
+    0.6298
+
+
+optimalBackupPositions =
+
+     7     8    18    19
+
+
+minBackupLatency =
+
+    0.7857
+
+
+optimalLoadBalancePositions =
+
+     7     8    18    19
+
+
+minLoadBalanceLatency =
+
+    0.7857
+
+
+For 5 controllers- 
+optimalPrimaryPositions =
+
+     7     8    18    19    28
+
+
+minPrimaryLatency =
+
+    0.5657
+
+
+optimalBackupPositions =
+
+     7     8    18    19    25
+
+
+minBackupLatency =
+
+    0.6884
+
+
+optimalLoadBalancePositions =
+
+     7     8    18    19    25
+
+
+minLoadBalanceLatency =
+
+    0.6884
+
+
+For 6 controllers- 
+optimalPrimaryPositions =
+
+     7     8    18    19    25    28
+
+
+minPrimaryLatency =
+
+    0.5242
+
+
+optimalBackupPositions =
+
+     7     8    11    18    19    25
+
+
+minBackupLatency =
+
+    0.6077
+
+
+optimalLoadBalancePositions =
+
+     7     8    11    18    19    25
+
+
+minLoadBalanceLatency =
+
+    0.6077
+
+
+Warning: The undocumented 'hardcopy' function will be removed in a future release of MATLAB; use
+the documented 'print' command instead. 
+> In hardcopy
+  In applyhatch_pluscolor (line 125)
+  In multiControllerPlanning (line 80)
+  In agisMain (line 11) 
+Warning: Zbuffer is not supported for printing, using OpenGL instead. 
+> In inputcheck (line 242)
+  In print (line 153)
+  In hardcopy
+  In applyhatch_pluscolor (line 125)
+  In multiControllerPlanning (line 80)
+  In agisMain (line 11) 
+>> 
+>> tatanetPlot
+For 2 controllers- 
+optimalPrimaryPositions =
+
+     8    18
+
+
+minPrimaryLatency =
+
+    0.9170
+
+
+optimalBackupPositions =
+
+    18    25
+
+
+minBackupLatency =
+
+    1.1622
+
+
+optimalLoadBalancePositions =
+
+    18    25
+
+
+minLoadBalanceLatency =
+
+    1.2503
+
+
+For 3 controllers- 
+optimalPrimaryPositions =
+
+     7     8    19
+
+
+minPrimaryLatency =
+
+    0.7037
+
+
+optimalBackupPositions =
+
+     8    18    25
+
+
+minBackupLatency =
+
+    0.9722
+
+
+optimalLoadBalancePositions =
+
+     7     8    18
+
+
+minLoadBalanceLatency =
+
+    0.9729
+
+
+For 4 controllers- 
+optimalPrimaryPositions =
+
+     7     8    18    19
+
+
+minPrimaryLatency =
+
+    0.6298
+
+
+optimalBackupPositions =
+
+     7     8    18    19
+
+
+minBackupLatency =
+
+    0.7857
+
+
+optimalLoadBalancePositions =
+
+     7     8    18    19
+
+
+minLoadBalanceLatency =
+
+    0.7857
+
+
+For 5 controllers- 
+optimalPrimaryPositions =
+
+     7     8    18    19    28
+
+
+minPrimaryLatency =
+
+    0.5657
+
+
+optimalBackupPositions =
+
+     7     8    18    19    25
+
+
+minBackupLatency =
+
+    0.6884
+
+
+optimalLoadBalancePositions =
+
+     7     8    18    19    25
+
+
+minLoadBalanceLatency =
+
+    0.6884
+
+
+For 6 controllers- 
+optimalPrimaryPositions =
+
+     7     8    18    19    25    28
+
+
+minPrimaryLatency =
+
+    0.5242
+
+
+optimalBackupPositions =
+
+     7     8    11    18    19    25
+
+
+minBackupLatency =
+
+    0.6077
+
+
+optimalLoadBalancePositions =
+
+     7     8    11    18    19    25
+
+
+minLoadBalanceLatency =
+
+    0.6077
+
+
+
+For 7 controllers- 
+optimalPrimaryPositions =
+
+     2     7     8    18    19    25    28
+
+
+minPrimaryLatency =
+
+    0.4845
+
+
+optimalBackupPositions =
+
+     5     7     8    11    18    19    25
+
+
+minBackupLatency =
+
+    0.5488
+
+
+optimalLoadBalancePositions =
+
+     5     7     8    11    18    19    25
+
+
+minLoadBalanceLatency =
+
+    0.5488
+
+
+For 8 controllers- 
+optimalPrimaryPositions =
+
+     0     2     7     8    18    19    25    28
+
+
+minPrimaryLatency =
+
+    0.4480
+
+
+optimalBackupPositions =
+
+     2     5     7     8    11    18    19    25
+
+
+minBackupLatency =
+
+    0.5017
+
+
+optimalLoadBalancePositions =
+
+     2     5     7     8    11    18    19    25
+
+
+minLoadBalanceLatency =
+
+    0.5017
+
+
+Warning: The undocumented 'hardcopy' function will be removed in a future release of MATLAB; use
+the documented 'print' command instead. 
+> In hardcopy
+  In applyhatch_pluscolor (line 125)
+  In multiControllerPlanning (line 80)
+  In tatanetPlot (line 11) 
+Warning: Zbuffer is not supported for printing, using OpenGL instead. 
+> In inputcheck (line 242)
+  In print (line 153)
+  In hardcopy
+  In applyhatch_pluscolor (line 125)
+  In multiControllerPlanning (line 80)
+  In tatanetPlot (line 11) 
+>> 
+>> tatanetPlot
+For 2 controllers- 
+optimalPrimaryPositions =
+
+    52    94
+
+
+minPrimaryLatency =
+
+    2.4437
+
+
+optimalBackupPositions =
+
+    60    69
+
+
+minBackupLatency =
+
+    3.1913
+
+
+optimalLoadBalancePositions =
+
+    60    69
+
+
+minLoadBalanceLatency =
+
+    3.2281
+
+
+For 3 controllers- 
+optimalPrimaryPositions =
+
+    46    52    70
+
+
+minPrimaryLatency =
+
+    1.9748
+
+
+optimalBackupPositions =
+
+    46    60    80
+
+
+minBackupLatency =
+
+    2.7317
+
+
+optimalLoadBalancePositions =
+
+    60    78    80
+
+
+minLoadBalanceLatency =
+
+    2.9018
+
+
+
+tatanetPlot

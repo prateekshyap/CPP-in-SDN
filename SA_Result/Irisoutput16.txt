@@ -1,0 +1,476 @@
+>> RandomAndSALoad
+
+cont =
+
+     1
+
+
+cost =
+
+   7.2623e+04
+
+
+lSa =
+
+       25000
+           0
+
+
+controllers =
+
+    14
+
+
+cont =
+
+     2
+
+
+cost =
+
+   7.5603e+04
+
+
+lSa =
+
+        5500       19000
+           0           0
+
+
+controllers =
+
+     5    24
+
+
+cont =
+
+     3
+
+
+cost =
+
+   7.6805e+04
+
+
+lSa =
+
+        3500       12000        8500
+           1           0           0
+
+
+controllers =
+
+     2    19    18
+
+
+cont =
+
+     4
+
+
+cost =
+
+   7.3764e+04
+
+
+lSa =
+
+  Columns 1 through 3
+
+        3000        5000         500
+           1           1           1
+
+  Column 4
+
+       15000
+           0
+
+
+controllers =
+
+    51    39    47    25
+
+
+cont =
+
+     5
+
+
+cost =
+
+   7.1886e+04
+
+
+lSa =
+
+  Columns 1 through 3
+
+        1500        3500        2000
+           1           1           1
+
+  Columns 4 through 5
+
+           0       16500
+           1           0
+
+
+controllers =
+
+    12    46    45    15    14
+
+
+cont =
+
+     6
+
+
+cost =
+
+   7.0975e+04
+
+
+lSa =
+
+  Columns 1 through 3
+
+        2000         500        2000
+           1           1           1
+
+  Columns 4 through 6
+
+        5500        8500        4000
+           0           0           1
+
+
+controllers =
+
+    30     1    22    15    19    47
+
+
+cont =
+
+     7
+
+
+cost =
+
+   9.1436e+04
+
+
+lSa =
+
+  Columns 1 through 3
+
+        4500           0        1500
+           1           1           1
+
+  Columns 4 through 6
+
+       16500         500           0
+           0           1           1
+
+  Column 7
+
+           0
+           1
+
+
+controllers =
+
+    44    23    38    48    21    11    51
+
+
+cont =
+
+     8
+
+
+cost =
+
+   8.4729e+04
+
+
+lSa =
+
+  Columns 1 through 3
+
+         500        1500           0
+           1           1           1
+
+  Columns 4 through 6
+
+       13000        1000        4500
+           0           1           1
+
+  Columns 7 through 8
+
+        1000         500
+           1           1
+
+
+controllers =
+
+  Columns 1 through 7
+
+    24    23    45    49    15    20    11
+
+  Column 8
+
+    32
+
+
+cont =
+
+     1
+
+
+ans =
+
+   1.1364e+05
+
+
+lRand =
+
+       25000
+
+
+randCont =
+
+    20
+
+
+cont =
+
+     2
+
+
+ans =
+
+   9.9771e+04
+
+
+lRand =
+
+       22000        2500
+
+
+randCont =
+
+    47    49
+
+
+cont =
+
+     3
+
+
+ans =
+
+   8.5406e+04
+
+
+lRand =
+
+       20500        4000           0
+
+
+randCont =
+
+    29    41    41
+
+
+cont =
+
+     4
+
+
+ans =
+
+   6.7038e+04
+
+
+lRand =
+
+  Columns 1 through 3
+
+        2000        4000       14500
+
+  Column 4
+
+        3000
+
+
+randCont =
+
+    12    17    33     5
+
+
+cont =
+
+     5
+
+
+ans =
+
+   8.0817e+04
+
+
+lRand =
+
+  Columns 1 through 3
+
+        8000        1000        2500
+
+  Columns 4 through 5
+
+        6500        5000
+
+
+randCont =
+
+    31    23    35    25    10
+
+
+cont =
+
+     6
+
+
+ans =
+
+   7.7939e+04
+
+
+lRand =
+
+  Columns 1 through 3
+
+        1000        8000        5500
+
+  Columns 4 through 6
+
+        2500        6000           0
+
+
+randCont =
+
+    20    15    48    23    35    23
+
+
+cont =
+
+     7
+
+
+ans =
+
+   8.0082e+04
+
+
+lRand =
+
+  Columns 1 through 3
+
+        2500        9500        1000
+
+  Columns 4 through 6
+
+        2000        4000        1500
+
+  Column 7
+
+        1500
+
+
+randCont =
+
+    49     2    10    25    31    20    50
+
+
+cont =
+
+     8
+
+
+ans =
+
+   8.4966e+04
+
+
+lRand =
+
+  Columns 1 through 3
+
+         500        1000        9000
+
+  Columns 4 through 6
+
+        2500        1500        1500
+
+  Columns 7 through 8
+
+        6000           0
+
+
+randCont =
+
+  Columns 1 through 7
+
+    25    12    33    14    38    40    24
+
+  Column 8
+
+    24
+
+Warning: The undocumented 'hardcopy' function
+will be removed in a future release of
+MATLAB; use the documented 'print' command
+instead. 
+> In hardcopy
+  In applyhatch_pluscolor (line 125)
+  In RandomAndSALoad (line 83) 
+Warning: Zbuffer is not supported for
+printing, using OpenGL instead. 
+> In inputcheck (line 242)
+  In print (line 153)
+  In hardcopy
+  In applyhatch_pluscolor (line 125)
+  In RandomAndSALoad (line 83) 
+Warning: The undocumented 'hardcopy' function
+will be removed in a future release of
+MATLAB; use the documented 'print' command
+instead. 
+> In hardcopy
+  In applyhatch_pluscolor (line 125)
+  In RandomAndSALoad (line 108) 
+Warning: Zbuffer is not supported for
+printing, using OpenGL instead. 
+> In inputcheck (line 242)
+  In print (line 153)
+  In hardcopy
+  In applyhatch_pluscolor (line 125)
+  In RandomAndSALoad (line 108) 
+
+randTime =
+
+  Columns 1 through 4
+
+    0.0018    0.0027    0.0035    0.0041
+
+  Columns 5 through 8
+
+    0.0050    0.0060    0.0070    0.0079
+
+
+saTime =
+
+  Columns 1 through 4
+
+   88.4401  176.4455  264.5708  352.5006
+
+  Columns 5 through 8
+
+  440.4629  528.4743  616.4997  704.4512
+
+>> 
+>> 

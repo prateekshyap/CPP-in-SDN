@@ -1,0 +1,197 @@
+
+controllerPositions =
+
+    14    12
+
+
+optCost =
+
+   8.3506e+03
+
+
+optCostF =
+
+   9.6688e+03
+
+
+optLat =
+
+    1.4884
+
+
+optLatF =
+
+    1.4884
+
+
+
+controllerPositions =
+
+    12    11    20
+
+
+optCost =
+
+   7.3952e+03
+
+
+optCostF =
+
+   8.8605e+03
+
+
+optLat =
+
+    1.2600
+
+
+optLatF =
+
+    1.7575
+
+
+
+controllerPositions =
+
+    10     7    26     4
+
+
+optCost =
+
+   8.7914e+03
+
+
+optCostF =
+
+   1.0786e+04
+
+
+optLat =
+
+    1.4931
+
+
+optLatF =
+
+    1.9487
+
+
+
+controllerPositions =
+
+    17     9    25    11    20
+
+
+optCost =
+
+   7.0928e+03
+
+
+optCostF =
+
+   9.2797e+03
+
+
+optLat =
+
+    1.1057
+
+
+optLatF =
+
+    2.1057
+
+
+
+controllerPositions =
+
+    25    11    23    10    24     7
+
+
+optCost =
+
+   7.9247e+03
+
+
+optCostF =
+
+   1.0729e+04
+
+
+optLat =
+
+    1.5085
+
+
+optLatF =
+
+    2.0958
+
+
+
+controllerPositions =
+
+  Columns 1 through 6
+
+    19    11    14    22     8    15
+
+  Column 7
+
+    25
+
+
+optCost =
+
+   7.0669e+03
+
+
+optCostF =
+
+   9.6223e+03
+
+
+optLat =
+
+    1.6547
+
+
+optLatF =
+
+    2.4884
+
+
+
+controllerPositions =
+
+  Columns 1 through 6
+
+    24     9    10     2    16    12
+
+  Columns 7 through 8
+
+    20    18
+
+
+optCost =
+
+   6.3515e+03
+
+
+optCostF =
+
+   1.0065e+04
+
+
+optLat =
+
+    1.6474
+
+
+optLatF =
+
+    2.3028
+
+
+>> 
+>> 
+>> 

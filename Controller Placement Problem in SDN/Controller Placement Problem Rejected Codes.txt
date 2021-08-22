@@ -1,0 +1,326 @@
+% n = number of vertices, mat = adjacency matrix, k and r = random numbers,
+% l = latency
+clear all
+%       0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+mat = [ 0  0  0  0  0  0  0  0  0  0  0  0  0  0 32  0  0  2  0  3; %0
+        0  0  4  5  0  0  6  0  0  0  0  0  0  0  0  0  0  0  0  0; %1
+        0  4  0  0  7  8  0  0  0  0  0  0  0  0  0  0  0  0  0  0; %2
+        0  5  0  0  0  0  0  9  0  0  0  0  0  0  0  0  0  0  0  0; %3
+        0  0  7  0  0 11  0  0  0  0  0 12  0  0  0  0  0  0  0  0; %4
+        0  0  8  0 11  0 13  0  0  0  0  0  0  0  0  0  0  0  0  0; %5
+        0  6  0  0  0 13  0 14  0  0  0  0  0  0  0  0  0  0  0  0; %6
+        0  0  0  9  0  0 14  0  0  0 15  0  0  0  0  0  0  0  0  0; %7
+        0  0  0  0  0  0  0  0  0 18 17  0 18  0  0  0  0  0  0  0; %8
+        0  0  0  0  0  0  0  0 18  0 19 20  0  0  0  0  0  0  0  0; %9
+        0  0  0  0  0  0  0 15 17 19  0  0  0  0  0  0  0  0  0 21; %10
+        0  0  0  0 12  0  0  0  0 20  0  0  0 22  0  0  0  0  0  0; %11
+        0  0  0  0  0  0  0  0 18  0  0  0  0  0 23  0  0  0 24  0; %12
+        0  0  0  0  0  0  0  0  0  0  0 22  0  0  0 25  0 26  0  0; %13
+       32  0  0  0  0  0  0  0  0  0  0  0 23  0  0 27  0  0 28  0; %14
+        0  0  0  0  0  0  0  0  0  0  0  0  0 25 27  0 29  0  0  0; %15
+        0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 29  0  0 30 31; %16
+        2  0  0  0  0  0  0  0  0  0  0  0  0 26  0  0  0  0  0 32; %17
+        0  0  0  0  0  0  0  0  0  0  0  0 24  0 28  0 30  0  0  0; %18
+        3  0  0  0  0  0  0  0  0  0 21  0  0  0  0  0 31 32  0  0 ]; %19
+n = 20; %total number of nodes
+k = 5; %number of nearest neighbours
+knnmat = zeros (n,k+1); %matrix to store the k-nearest neighbours
+for i = 1 : n %for each node
+  knnmat (i,1) = i; %store the node itself as its nearest neighbour
+end
+%calculating the k-nearest neighbours for each node
+for i = 1 : n %for each node
+  nn (1,1:k) = 999; %to store the k-nearest neighbours of ith node
+  sp = bellmanford (n, mat, i); %shortest path from ith node
+    for j = 1 : n %for each node
+      if (sp (1,j) == 0) %if the nodes are not connected
+          sp (1,j) = 999; %update to infinite value
+      end
+    end
+    for count = 1 : k %to find out the k-nearest neighbours
+      m = 1; %m = the index of the node which has least distance from the ith node (initially 1)
+      for j = 2 : n %for each node 2 to n
+          if (sp (1,j) < sp (1,m)) %if the distance is less than m
+            m = j; %updating the index
+          end
+      end
+      nn (1,count) = m; %the node with least distance from ith node is stored in nn
+      sp (1,m) = 999; %updating that distance to infinite value not to consider further
+    end
+    knnmat (i,2:k+1) = nn; %store the k-nearest neighbour nodes in the matrix
+end
+knnmat = knnmat - 1;
+%calculating the frequencies of each node
+freq = zeros (1,n);
+for i = 1 : n %for each node
+  for j = 1 : k+1 %for each neighbour
+    freq (1,(knnmat (i,j)+1)) = freq (1,(knnmat (i,j)+1)) + 1; %increment the corresponding node frequency by 1
+  end
+end
+freq
+%calculating the threshold frequency
+wm = 0;%weighted mean
+for i = 1 : n %for each node
+  wm = wm + freq (1,i);
+end
+km = (wm / n) + 1; %threshold frequency
+km
+%finding out the list of possible locations
+j = 1;
+for i = 1 : n %for each node
+  if (freq (1,i) >= km) %if the node frequency is greater than or equal to threshold frequency 
+    loc (1,j) = i-1; %add the node to the possible locations
+    j = j + 1; %increment the counter
+  end
+end
+loc
+
+%{
+clear all
+% n = number of vertices, mat = adjacency matrix, k and r = random numbers,
+% l = latency
+clear all
+xin = 1; %index counter for x axis
+yin = 1; %index counter for y axis
+% mat = [ 0 1 2 2;
+%         1 0 4 0;
+%         2 4 0 1;
+%         2 0 1 0 ];
+% mat = [ 0  1  0  0  2;
+%         1  0  2  5  4;
+%         0  2  0  3  0;
+%         0  5  3  0  1;
+%         2  4  0  1  0];
+%       0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+mat = [ 0  0  0  0  0  0  0  0  0  0  0  0  0  0 32  0  0  2  0  3; %0
+        0  0  4  5  0  0  6  0  0  0  0  0  0  0  0  0  0  0  0  0; %1
+        0  4  0  0  7  8  0  0  0  0  0  0  0  0  0  0  0  0  0  0; %2
+        0  5  0  0  0  0  0  9  0  0  0  0  0  0  0  0  0  0  0  0; %3
+        0  0  7  0  0 11  0  0  0  0  0 12  0  0  0  0  0  0  0  0; %4
+        0  0  8  0 11  0 13  0  0  0  0  0  0  0  0  0  0  0  0  0; %5
+        0  6  0  0  0 13  0 14  0  0  0  0  0  0  0  0  0  0  0  0; %6
+        0  0  0  9  0  0 14  0  0  0 15  0  0  0  0  0  0  0  0  0; %7
+        0  0  0  0  0  0  0  0  0 18 17  0 18  0  0  0  0  0  0  0; %8
+        0  0  0  0  0  0  0  0 18  0 19 20  0  0  0  0  0  0  0  0; %9
+        0  0  0  0  0  0  0 15 17 19  0  0  0  0  0  0  0  0  0 21; %10
+        0  0  0  0 12  0  0  0  0 20  0  0  0 22  0  0  0  0  0  0; %11
+        0  0  0  0  0  0  0  0 18  0  0  0  0  0 23  0  0  0 24  0; %12
+        0  0  0  0  0  0  0  0  0  0  0 22  0  0  0 25  0 26  0  0; %13
+       32  0  0  0  0  0  0  0  0  0  0  0 23  0  0 27  0  0 28  0; %14
+        0  0  0  0  0  0  0  0  0  0  0  0  0 25 27  0 29  0  0  0; %15
+        0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 29  0  0 30 31; %16
+        2  0  0  0  0  0  0  0  0  0  0  0  0 26  0  0  0  0  0 32; %17
+        0  0  0  0  0  0  0  0  0  0  0  0 24  0 28  0 30  0  0  0; %18
+        3  0  0  0  0  0  0  0  0  0 21  0  0  0  0  0 31 32  0  0 ]; %19
+n = 20; %total number of nodes
+x = zeros (1,floor (n/2)); %n/2 is the highest possible number of controllers
+y = zeros (1,floor (n/2));
+for noc = 1 : floor (n/2) %noc = number of controllers
+    x (xin) = noc; %storing the number of controllers in x-axis
+    xin = xin + 1;
+    c = combnk (1 : n,noc); %storing all the combinations
+    noi = factorial (n) / (factorial (noc) * factorial (n-noc)); %noi = no of iterations = no of combinations
+    sp = zeros (noc,n); %matrix to store the shortest path distances
+    l = zeros (noc,1); %matrix to store the latencies
+    minavglatency = 100; %optimal latency for noc controllers
+    for i = 1 : noi %for each combination of controllers
+       for j = 1 : noc %for each controller
+           sp (j,1:n) = bellmanford (n, mat, c(i,j)); %calculating and storing the shortest path distances
+       end
+       for j = 1 : noc %for each controller
+           for k = 1 : noc %for each controller
+               sp (k,c(i,j)) = 0; %storing 0 as shortest path distance for all the controller nodes
+           end
+       end
+       for k = 1 : n %for each node
+           min = sp (1,k); %the shortest path from 1st controller is assumed to be the minimum
+           for j = 2 : noc %for each controller except the 1st one
+               if (min == 0 || sp (j,k) == 0) %if minimum distance is 0 or shortest path is 0
+                   break; %stop the inner loop
+               elseif (sp (j,k) >= min) %if the node has shortest path from 1st controller less than that of the current controller
+                   sp (j,k) = 0; %connect the node to the 1st controller
+               else %if the node is closer to any controller other than the 1st one
+                   min = sp (j,k); %minimum distance is updated
+               end
+           end
+           if (min ~= sp (1,k)) %if the node is not closer to the 1st controller
+              sp (1,k) = 0; %connect the node to the controller from which the shortest path is minimum
+           end
+       end
+       for j = 1 : noc %for each controller
+           l (j) = latency (sp (j,1:n), n); %calculating the latencies
+       end
+       totallatency = 0; %total latency of all the controllers
+       for j = 1 : noc %for each controller
+           totallatency = totallatency + l (j); %adding the latencies of all the controllers
+       end
+       tc = 0;
+       for j = 1 : noc
+          if (l (j) ~= 0)
+              tc = tc + 1;
+          end
+       end
+       avglatency = totallatency / tc;
+       if (avglatency < minavglatency)
+           minavglatency = avglatency; %updating the optimal latency value
+       end
+    end
+    y (yin) = minavglatency; %storing the optimal average latency in y-axis
+    yin = yin + 1;
+end
+plot (x,y);
+title ('Controller Placement Problem');
+xlabel ('Number of Controllers');
+ylabel ('Average latency');
+
+
+%------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+% n = 4;
+% x = round(rand (1,n) * 100);
+% y = round(rand (1,n) * 100);
+% k = rand (1,1);
+% mat = zeros (n);
+% for i = 1 : n
+%    for j = 1 : n
+%        if (i < j)
+%           r = rand (1,1);
+%           if (r > k)
+%               mat (i,j) = 1;
+%               mat (j,i) = 1;
+%           else
+%               mat (i,j) = 0;
+%               mat (j,i) = 0;
+%           end
+%           k = r;
+%        end
+%    end
+% end
+% mat
+% 
+% 
+% 
+% G = round(rand(n));
+% G = triu(G) + triu(G,1)';
+% G = G - diag(diag(G));
+% G
+% 
+% 
+% n = 4;
+% k = 1;
+% v = [ 0 1 2 3 ];
+% c = combnk (v,k);
+% c
+% noi = factorial (n) / (factorial (k) * factorial (n-k));
+% noi
+% c (2,1)
+% mat = [ 0 1 2 2;
+%         1 0 4 0;
+%         2 4 0 1;
+%         2 0 1 0 ];
+% mat = [0  1  0  0  2;
+%        1  0  2  5  4;
+%        0  2  0  3  0;
+%        0  5  3  0  1;
+%        2  4  0  1  0];
+% n=4;
+% for noc = 1 : n/2 % noc = number of controllers
+%     c = combnk (1 : n,noc);
+%     noi = factorial (n) / (factorial (noc) * factorial (n-noc)); %noi = no of iterations
+%     sp = zeros (noc,n);
+%     l = zeros (noc,1);
+%     for i = 1 : noi
+%        for j = 1 : noc
+%            sp (j,1:n) = bellmanford (n, mat, c(i,j));
+%            l (j) = latency (sp (j,1:n), n);
+%        end
+%        for j = 1 : noc
+%            for k = 1 : noc
+%                sp (k,c(i,j)) = 0;
+%            end
+%        end
+%        for k = 1 : n
+%            min = sp (1,k);
+%            for j = 2 : noc
+%                if (min == 0 || sp (j,k) == 0)
+%                    break;
+%                elseif (sp (j,k) >= min)
+%                    sp (j,k) = 0;
+%                else
+%                    min = sp (j,k);
+%                end
+%            end
+%            if (min ~= sp (1,k))
+%               sp (1,k) = 0; 
+%            end
+%        end
+%         for j = 1 : noc %for each controller
+%            non = 0; %non = no of nodes connected to jth controller
+%            %counting the number of nodes connected to jth controller
+%            for k = 1 : n %for each node
+%                if (sp (j,k) ~=0) %if the shortest path exists
+%                    non = non + 1; %increase by 1
+%                end
+%            end
+%            l (j) = latency (sp (j,1:n), n, non); %calculating and stroing the latencies
+%            l (j) = latency (sp (j,1:n), n);
+%        end
+%        c (i,1:j)
+%        sp
+%        l
+%        fprintf ('\n\n\n');
+%     end
+% end
+% 
+% for i = 1 : n
+% 	sp = bellmanford (n, mat, i);
+%     l = latency (sp, n);
+%     fprintf ('Source node= %d\n',i-1);
+%     fprintf ('latency= %d\n\n',l);
+% end% n = number of vertices, mat = adjacency matrix, k and r = random numbers,
+% l = latency
+clear all
+mat = [ 0  1  2  0  3  4; %1
+        1  0  4  3  1  2; %2
+        2  4  0  1  3  0; %3
+        0  3  1  0  4  2; %4
+        3  1  3  4  0  1; %5
+        4  2  0  2  1  0]; %6
+n = 6; %total number of nodes
+k = 3; %number of nearest neighbours
+knnmat = zeros (n,k+1); %matrix to store the k-nearest neighbours
+for i = 1 : n %for each node
+  knnmat (i,1) = i; %store the node itself as its nearest neighbour
+end
+%calculating the k-nearest neighbours for each node
+for i = 1 : n %for each node
+  nn (1,1:k) = 999; %to store the k-nearest neighbours of ith node
+  sp = bellmanford (n, mat, i);
+  for j = 1 : n
+    if (sp (1,j) == 0)
+      sp (1,j) = 999;
+    end
+  end
+  for count = 1 : k
+    m = 1;
+    for j = 2 : n
+      if (sp (1,j) < sp (1,m))
+        m = j;
+      end
+    end
+    nn (1,count) = sp (1,m);
+    sp (1,m) = 999;
+  end
+  knnmat (i,2:k+1) = nn; %store the k-nearest neighbour nodes in the matrix
+end
+%{
+for i = 1 : n %for each node
+  
+  
+  
+end
+knnmat
+%}
+
+%}
